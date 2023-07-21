@@ -6,6 +6,18 @@ public class Cell {
     private int col;
     private CellState cellState;
 
+    public Cell(Player player, int row, int col, CellState cellState) {
+        this.player = player;
+        this.row = row;
+        this.col = col;
+        this.cellState = cellState;
+    }
+
+    public Cell(int row, int col) {
+        this.row = row;
+        this.col = col;
+    }
+
     public Player getPlayer() {
         return player;
     }
