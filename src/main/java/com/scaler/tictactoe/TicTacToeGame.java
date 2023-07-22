@@ -41,7 +41,7 @@ public class TicTacToeGame {
             players.add(new Player(symbol.charAt(0), name, PlayerType.HUMAN));
         }
 
-//        GameController gameController = new GameController();
-//        Game game  = gameController.createGame(players, dimension);
+        GameController gameController = new GameController();
+        Game game  = gameController.createGame(players, dimension);
     }
 }
